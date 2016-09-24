@@ -17,9 +17,9 @@ function moveLeft(){
       marginRight=marginRight+10;
       img.style.marginRight = marginRight+'px';
 }
-img.onclick=function(){
+img.onclick=function(moveRight){
     var interval = setInterval(moveRight,40);
 };
-img.onclick=function(){
+img.onclick=function(moveLeft){
     var interval = setInterval(moveLeft,40);
 };
